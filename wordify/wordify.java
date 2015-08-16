@@ -8,7 +8,6 @@ public class wordify
 
 	System.out.print(" > Enter a number :: ");
 	long num = inp.nextLong();
-	
 	System.out.println(" > In words       :: "+wordify(num));
   }
 
