@@ -48,6 +48,5 @@ public class wordify
 	else
 	  return wordify(digit/(long)Math.pow(10,7)) + super_word[7]
 			 + wordify(digit%(long)Math.pow(10,7));
-	
   }
 }
