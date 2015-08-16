@@ -26,7 +26,6 @@ public class wordify
 	     		      "sixty ","seventy ","eighty ","ninety "};
 
     String super_word[] = {"","","hundred ","thousand ","","lakh ","","crore "};
-	
 
 	if(digit<10000000)// one crore
 	{
