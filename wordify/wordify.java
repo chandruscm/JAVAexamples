@@ -15,15 +15,15 @@ public class wordify
   public static String wordify(long digit)
   {
 	String primitive_word[] = {"","one ","two ","three ","four ",
-							   "five ","six ","seven ","eight ",
-							   "nine ","ten ","eleven ","twelve ",
-							   "thirteen ","fourteen ","fifteen ",
-							   "sixteen ","seventeen ","eighteen ",
-							   "nineteen "};
+				   "five ","six ","seven ","eight ",
+				   "nine ","ten ","eleven ","twelve ",
+				   "thirteen ","fourteen ","fifteen ",
+				   "sixteen ","seventeen ","eighteen ",
+				   "nineteen "};
 
 
 	String tens_word[] = {"","","twenty ","thirty ","forty ","fifty ",
-						  "sixty ","seventy ","eighty ","ninety "};
+	     		      "sixty ","seventy ","eighty ","ninety "};
 
     String super_word[] = {"","","hundred ","thousand ","","lakh ","","crore "};
 	
@@ -34,8 +34,6 @@ public class wordify
 
 	  if(level>3&&level<8&&level%2!=0)
   		level--;
-	  if(level>7)
-		level=7;
 
 	  if(digit<20)
 	    return primitive_word[(int)digit];
